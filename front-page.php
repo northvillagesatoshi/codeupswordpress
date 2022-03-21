@@ -1,14 +1,14 @@
-<?php  
-$home = esc_url( home_url('/')) ;
-$news = esc_url( home_url('news')) ;
-$content= esc_url( home_url('content')) ;
-$works = esc_url( home_url('works')) ;
-$overview = esc_url( home_url('overview')) ;
-$blog = esc_url( home_url('blog')) ;
-$contact = esc_url( home_url('contact')) ;
-$works1 = esc_url( home_url('works/works-1')) ;
-$works2 = esc_url( home_url('works/works-2')) ;
-$works3 = esc_url( home_url('works/works-3')) ;
+<?php
+$home = esc_url(home_url('/'));
+$news = esc_url(home_url('news'));
+$content = esc_url(home_url('content'));
+$works = esc_url(home_url('works'));
+$overview = esc_url(home_url('overview'));
+$blog = esc_url(home_url('blog'));
+$contact = esc_url(home_url('contact'));
+$works1 = esc_url(home_url('works/works-1'));
+$works2 = esc_url(home_url('works/works-2'));
+$works3 = esc_url(home_url('works/works-3'));
 ?>
 
 
@@ -51,7 +51,7 @@ $works3 = esc_url( home_url('works/works-3')) ;
         </div>
         <p class="p-top-news__text">
           <a href="#"><?php the_title(); //投稿（固定ページ）のタイトルを表示 
-                                              ?></a>
+                      ?></a>
         </p>
         <div class="p-top-news__btn u-mobile">
           <a href="<?php echo $news ?>" class="c-btn c-btn--background-black">すべて見る</a>
@@ -74,21 +74,22 @@ $works3 = esc_url( home_url('works/works-3')) ;
           <span class="c-section-header__sub-title">content</span>
         </div>
       </div>
-      <div class="p-top-content__items">
-        <a href="<?php echo $content ?>" class="p-top-content__item u-filter"><img src="<?php echo get_template_directory_uri(); ?>/dist/images/content/content1.jpg" alt="" />
-          <p>経営理念ページへ</p>
-        </a>
-        <a href="<?php echo $content ?>#content1" class="p-top-content__item u-filter"><img src="<?php echo get_template_directory_uri(); ?>/dist/images/content/content2.jpg" alt="" />
-          <p>理念1へ</p>
-        </a>
-        <a href="<?php echo $content ?>#content2" class="p-top-content__item u-filter"><img src="<?php echo get_template_directory_uri(); ?>/dist/images/content/content3.jpg" alt="" />
-          <p>理念2へ</p>
-        </a>
-        <a href="<?php echo $content ?>#content3" class="p-top-content__item u-filter"><img src="<?php echo get_template_directory_uri(); ?>/dist/images/content/content4.jpg " alt="" />
-          <p>理念3へ</p>
-        </a>
-      </div>
     </div>
+    <div class="p-top-content__items">
+      <a href="<?php echo $content ?>" class="p-top-content__item u-filter"><img src="<?php echo get_template_directory_uri(); ?>/dist/images/content/content1.jpg" alt="" />
+        <p>経営理念ページへ</p>
+      </a>
+      <a href="<?php echo $content ?>#content1" class="p-top-content__item u-filter"><img src="<?php echo get_template_directory_uri(); ?>/dist/images/content/content2.jpg" alt="" />
+        <p>理念1へ</p>
+      </a>
+      <a href="<?php echo $content ?>#content2" class="p-top-content__item u-filter"><img src="<?php echo get_template_directory_uri(); ?>/dist/images/content/content3.jpg" alt="" />
+        <p>理念2へ</p>
+      </a>
+      <a href="<?php echo $content ?>#content3" class="p-top-content__item u-filter"><img src="<?php echo get_template_directory_uri(); ?>/dist/images/content/content4.jpg " alt="" />
+        <p>理念3へ</p>
+      </a>
+    </div>
+
   </div>
 </section>
 <section class="l-top-works">

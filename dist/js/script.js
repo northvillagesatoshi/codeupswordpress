@@ -72,9 +72,9 @@ jQuery(function ($) {
   aboPos -= -130;
   $(window).scroll(function () {
     if ($(window).scrollTop() > aboPos) {
-      $(".js-to-top").addClass("to-top__scroll");
+      $(".js-to-top").addClass("c-to-top__scroll");
     } else {
-      $(".js-to-top").removeClass("to-top__scroll");
+      $(".js-to-top").removeClass("c-to-top__scroll");
     }
   });
   var mySwiper = new Swiper('.swiper-container', {

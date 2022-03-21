@@ -6,9 +6,9 @@ $works = esc_url( home_url('works')) ;
 $overview = esc_url( home_url('overview')) ;
 $blog = esc_url( home_url('blog')) ;
 $contact = esc_url( home_url('contact')) ;
-$works1 = esc_url( home_url('works/works-1')) ;
-$works2 = esc_url( home_url('works/works-2')) ;
-$works3 = esc_url( home_url('works/works-3')) ;
+$works1 = esc_url( home_url('works_category/works-1')) ;
+$works2 = esc_url( home_url('works_category/works-2')) ;
+$works3 = esc_url( home_url('works_category/works-3')) ;
 ?>
 
 
@@ -111,5 +111,8 @@ $works3 = esc_url( home_url('works/works-3')) ;
 <div class="l-common-contact">
   <?php get_template_part('lowercontact'); ?>
 </div>
+<a href="#" class="c-to-top js-to-top">
+    <span class="c-to-top__allow"></span>
+  </a>
 <?php get_footer(); //header.phpを取得 
 ?>

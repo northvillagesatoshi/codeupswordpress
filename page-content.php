@@ -73,13 +73,13 @@ $works3 = esc_url( home_url('works/works-3')) ;
         </div>
       </div>
     </div>
-    <a href="#" class="to-top js-to-top">
-      <span class="to-top__allow"></span>
-    </a>
   </main>
 </div>
 <div class="l-common-contact">
   <?php get_template_part('lowercontact'); ?>
 </div>
+<a href="#" class="c-to-top js-to-top">
+  <span class="c-to-top__allow"></span>
+</a>
 <?php get_footer(); //header.phpを取得 
 ?>

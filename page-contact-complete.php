@@ -21,8 +21,8 @@
       </div>
     </div>
   </main>
-  <a href="#" class="to-top js-to-top">
-    <span class="to-top__allow"></span>
+  <a href="#" class="c-to-top js-to-top">
+    <span class="c-to-top__allow"></span>
   </a>
   
 <?php get_footer(); 

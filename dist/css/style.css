@@ -18,11 +18,6 @@
 	overflow: hidden;
 }
 
-body {
-	color: #fff;
-	font-family: "Noto Sans JP", sans-serif;
-}
-
 /* リキッドレイアウト対応 */
 
 html {
@@ -42,6 +37,8 @@ a {
 
 body {
 	background-color: #111;
+	color: #fff;
+	font-family: "Noto Sans JP", sans-serif;
 }
 
 *,
@@ -600,12 +597,6 @@ select::-ms-expand {
 	padding: 0.1875rem 0.5rem;
 }
 
-.c-test {
-	color: red;
-	font-size: 20px;
-	font-size: 1.25rem;
-}
-
 .c-to-top__allow {
 	border-color: transparent transparent #333 #333;
 	border-style: solid;
@@ -630,26 +621,23 @@ select::-ms-expand {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	display: inline-block;
+	height: 45px;
+	height: 2.8125rem;
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
 	justify-content: center;
-	padding-bottom: 4.9px;
-	padding-bottom: 0.30625rem;
-	padding-left: 11px;
-	padding-left: 0.6875rem;
-	padding-right: 11px;
-	padding-right: 0.6875rem;
-	padding-top: 17px;
-	padding-top: 1.0625rem;
+	padding-top: 20px;
+	padding-top: 1.25rem;
 	position: fixed;
 	right: 20px;
 	right: 1.25rem;
 	visibility: hidden;
+	width: 45px;
+	width: 2.8125rem;
 	z-index: 999;
 }
 
-.to-top__scroll {
+.c-to-top__scroll {
 	visibility: visible;
 }
 
@@ -1910,14 +1898,9 @@ select::-ms-expand {
 	display: flex;
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
-	left: 49.3%;
-	margin-left: -50vw;
-	margin-right: -50vw;
 	margin-top: 50px;
 	margin-top: 3.125rem;
 	position: relative;
-	right: 50%;
-	width: 100vw;
 }
 
 .p-top-content__item {
@@ -2263,8 +2246,10 @@ select::-ms-expand {
 }
 
 .p-top-works__slide-img img {
-	height: auto;
+	-o-object-fit: cover;
+	height: 100%;
 	left: 50%;
+	object-fit: cover;
 	position: absolute;
 	top: 50%;
 	-webkit-transform: translate(-50%, -50%);
@@ -2574,11 +2559,6 @@ a:hover {
 .c-section-header__title {
 	font-size: 1.875rem;
 	letter-spacing: 0.03125rem;
-}
-
-.c-test {
-	color: green;
-	font-size: 3.125rem;
 }
 
 .c-to-top {
@@ -2940,6 +2920,10 @@ a:hover {
 
 .p-pc-nav {
 	display: block;
+}
+
+.p-sp-nav.js-drawer-menu {
+	display: none !important;
 }
 
 .p-header__inner {

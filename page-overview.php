@@ -60,4 +60,7 @@ $works3 = esc_url( home_url('works/works-3')) ;
 <div class="l-common-contact">
   <?php get_template_part('lowercontact'); ?>
 </div>
+<a href="#" class="c-to-top js-to-top">
+    <span class="c-to-top__allow"></span>
+  </a>
 <?php get_footer(); //footer.phpを取得　PHPで終了するので閉じタグは不要ですï
